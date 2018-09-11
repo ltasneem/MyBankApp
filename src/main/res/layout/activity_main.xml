@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextBank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:shadowColor="@android:color/holo_blue_dark"
+        android:text="APPLE ONLINE BANKING"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="           WELCOME!!!"
+        app:layout_constraintEnd_toEndOf="@+id/editTextBank"
+        app:layout_constraintTop_toBottomOf="@+id/editTextBank" />
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="     USER ID : 153549"
+        app:layout_constraintStart_toStartOf="@+id/editTextWelcome"
+        app:layout_constraintTop_toBottomOf="@+id/editTextWelcome" />
+
+    <EditText
+        android:id="@+id/editTextBalance"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Account Balance : $3720.96"
+        app:layout_constraintStart_toStartOf="@+id/editTextId"
+        app:layout_constraintTop_toBottomOf="@+id/editTextId" />
+
+    <Button
+        android:id="@+id/buttonAccount"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:onClick="buttonAccountOnClick"
+        android:text="SHOW ALL ACCOUNT"
+        app:layout_constraintStart_toStartOf="@+id/buttonTransaction"
+        app:layout_constraintTop_toBottomOf="@+id/editTextBalance"
+        tools:text="SHOW ALL ACCOUNT" />
+
+    <Button
+        android:id="@+id/buttonTransaction"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:onClick="buttonTransactionOnClick"
+        android:text="SHOW RECENT TRANSACTION"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>

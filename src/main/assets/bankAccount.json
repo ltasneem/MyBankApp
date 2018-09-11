@@ -1,0 +1,38 @@
+[
+  "bankId" ,{
+    "id":153549,
+    "accounts":[
+      {
+        "accountId": 1,
+        "accountNumber" : "1234567890",
+        "accountType" : "Checkings",
+        "accountBalance" : "$234.23"
+      }
+    ]
+  },
+
+  {
+    "id":153549,
+    "accounts":[
+      {
+        "accountId": 2,
+        "accountNumber" : "2345678901",
+        "accountType" : "Checkings",
+        "accountBalance" : "$3463.52"
+      }
+    ]
+  },
+
+  {
+    "id":153549,
+    "accounts":[
+      {
+        "accountId": 3,
+        "accountNumber" : "3456789012",
+        "accountType" : "Credit",
+        "accountBalance" : "$23.21"
+      }
+    ]
+  }
+
+]

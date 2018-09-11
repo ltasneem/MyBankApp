@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:background="#2787A4">
+
+    <TextView
+        android:id="@+id/TypeText"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft ="true"
+        android:text="ACCOUNT TYPE"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+    <TextView
+        android:id="@+id/NumberText"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/TypeText"
+        android:text="ACCOUNT NUMBER"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+    <TextView
+        android:id="@+id/BalanceText"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/NumberText"
+        android:text="ACCOUNT BALANCE"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+
+
+</RelativeLayout>
